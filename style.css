@@ -71,3 +71,23 @@ ul li a:active{
     margin-top: 5rem;
     text-align: center;
 }
+
+.tea .box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tea .box .imbox{
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.tea .box .imbox img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
