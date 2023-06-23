@@ -13,12 +13,10 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: fixed;
 }
 
 ul{
     display: flex;
-    position: relative;
 }
 
 ul li{
@@ -27,12 +25,9 @@ ul li{
 }
 
 ul li a{
-    text-decoration: none;
-    color: tomato;
-}
+    text-decoration: underline;
+    color: seashell;
 
-ul li a:hover{
-    border-bottom: 1px solid tomato;
 }
 
 ul li a:active{
@@ -41,4 +36,38 @@ ul li a:active{
 .logo{
     margin-left: 10px;
     height: 50px;
+}
+
+
+/* BANNERE */
+
+
+
+.bannere{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    max-width: 1200px;
+    margin: auto ;
+    margin-top: 69px;
+}
+
+.bannere .container{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column; 
+    height: 130vh;
+}
+
+.bannere .box{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.tea .container{
+    margin-top: 5rem;
+    text-align: center;
 }
